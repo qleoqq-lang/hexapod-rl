@@ -19,6 +19,7 @@
 | **路径规划** | A* / RRT / RL | 在障碍物环境中规划最优路径 |
 | **仿真平台** | PyBullet + URDF | 高保真物理仿真 |
 
+> 学习笔记与算法实验：[hexapod-rl-notes](https://github.com/qleoqq-lang/hexapod-rl-notes)
 ---
 
 ## 🏗️ 项目结构
