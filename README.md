@@ -31,7 +31,10 @@ six_leg_lzx-1.1-RL/
 ├── guide/                  架构、机制、实验、排查与工程路线
 ├── docs/                   资产审计、历史证据、实验模板、整理报告
 ├── requirements*.txt       直接依赖与环境快照
-├── THIRD_PARTY_NOTICES.md   来源、依赖许可与发布缺口
+├── LICENSE                 MIT软件许可证
+├── LICENSES/               CC BY 4.0完整文本
+├── LICENSING.md            许可证范围与署名示例
+├── THIRD_PARTY_NOTICES.md   项目来源、特别鸣谢与依赖许可
 ├── logs/                   本地产物，Git忽略
 └── checkpoints/            本地产物，Git忽略
 ```
@@ -96,8 +99,15 @@ Reward仅六项：世界X前进、倾斜、角速度、动作差分、机械功�
 
 ## 发布与复现状态
 
-GitHub基础文件和文档已整理，但当前目录尚无独立Git仓库，也未推送。环境、日志、模型权重和构建产物由.gitignore排除；保留少量可读证据在docs，不上传.venv或完整训练日志。
+项目已建立独立Git仓库并发布至 [GitHub](https://github.com/qleoqq-lang/hexapod-rl)。环境、日志、模型权重和构建产物由.gitignore排除；保留少量可读证据在docs，不上传.venv或完整训练日志。
 
-**原包源码/MJCF/STL许可与资源归属尚未确认，未擅自添加覆盖整个项目的LICENSE。公开发布前须完成 [第三方资源检查](THIRD_PARTY_NOTICES.md)。** MIT控制协议名称不表示资源采用MIT许可证。
+工程代码、机器人模型与配套资料均基于团队自有成果。**特别鸣谢张书铭学长设计本项目使用的六足机器人，为仿真、控制与强化学习研究提供基础。**
+
+## 许可证
+
+- **软件代码、脚本及配置：** [MIT](LICENSE)。
+- **两份MJCF、全部STL模型及文档：** [CC BY 4.0](LICENSES/CC-BY-4.0.txt)。
+
+各自覆盖的文件、文档代码片段的授权及署名示例见[许可证适用范围](LICENSING.md)。第三方运行依赖保留各自许可证，见[来源、鸣谢与依赖说明](THIRD_PARTY_NOTICES.md)。
 
 本次整理的合并记录、真实验证结果、未实施建议和下一步清单见 [审查交付报告](docs/documentation_review_20261105.md)。
