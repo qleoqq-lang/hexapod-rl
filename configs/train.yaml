@@ -1,0 +1,14 @@
+# Small CPU MLP smoke run; experimental training hyperparameters.
+seed: 1
+device: cpu
+torch_threads: 1
+workers: 1
+total_timesteps: 20000
+n_steps: 256
+batch_size: 64
+n_epochs: 4
+learning_rate: 0.0003
+gamma: 0.99
+gae_lambda: 0.95
+clip_range: 0.2
+checkpoint_every: 2048

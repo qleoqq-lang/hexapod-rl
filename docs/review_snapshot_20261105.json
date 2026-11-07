@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-05",
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "packages": {
+      "mujoco": "3.14.0",
+      "gymnasium": "1.3.0",
+      "stable-baselines3": "2.9.0",
+      "torch": "2.14.1",
+      "numpy": "2.4.6",
+      "PyYAML": "6.0.3",
+      "tensorboard": "2.21.0",
+      "pillow": "12.3.0"
+    }
+  },
+  "source_config_sha256": {
+    "configs/robot.yaml": "74ff72383be0314d0f7439f7893ddcae4fc35b11f506675ffbb328397124acb8",
+    "configs/train.yaml": "9c9b3e045476b898621065449d8f4931426c406680da21674359b570eaeeeb8a",
+    "mujoco/create_rl_mjcf.py": "8b5d8125c2cc5717d1da6336c59783698b922a5d891621be59ee1b4e97e00899",
+    "mujoco/dual_side_mujoco_driver.py": "9ca6500850e95e3f3f859c5698caab495e7f4025536b345e06d6b3a81c0bf28b",
+    "mujoco/hexapod_dynamic.xml": "c02e3eb27c4cb7f9d7bc03cc0ce61f09a08c6e58d870f060f5b74029f458ee38",
+    "mujoco/hexapod_rl.xml": "b717873cde62481fbd0c134a2513f8d5de16ed4257233316e2515b75b3bcb608",
+    "mujoco/hexapod_rl_env.py": "29496a7ff9cce6416256418f662575c5fd692580d2101fe3b8ee69bb00bf36c0",
+    "mujoco/linux_smoke_test.sh": "a3397b3d3673c7297bdea3316b867bdf358df01f416b469b0094fc8d77cfaf98",
+    "mujoco/requirements-linux.txt": "9c058b9dba8d7b4b84ce13bc1bd61c608988d83381ff6e69f4a8fe4474e31270",
+    "mujoco/rewards.py": "2079c1d1d18a47750124684b30133a45ef32c92c80d69eccae85b5caf141d9e0",
+    "mujoco/robot_interface.py": "569f157ba577787c47c78eece2fc34d958364355154e3fd59484e982de2a466f",
+    "mujoco/sim_robot.py": "8f8932423378ab21ea70f2c23229e0c8b4071811ffab3a2327868bc71a9be19b",
+    "mujoco/train_ppo.py": "197979b98defef5495ad2ebbf0ec91793130137b34cddbdc2dbb5553a3cca9eb",
+    "mujoco/validation.py": "e9edbf430f165d912d799bf6d0f2f76749de7a552d353d948f1316099cf66151",
+    "scripts/inspect_robot.py": "ed2832d52a60a2241cb19f805ead4640cbf0ce0cffd0a507bc1690a0a6dd9c22",
+    "scripts/play.py": "f07a98cf921bcec99a339f2ef1880322aa19f879f86b18f67f8aa6452b19b58b",
+    "scripts/random_test.py": "041a53eaa2a554b4410c3b5bbcf5dfe0c58e2af8ee2605417a2425c700fefa3b",
+    "scripts/train.py": "f635435f12bd7ed152dd9a3f327551cf84564cbe930629997541bd6db70989b7",
+    "scripts/_bootstrap.py": "da9372887d25ffdfc534a4c2fcd5728ceaa01decd7d53d1a20d1f9114ef10cba",
+    "tests/test_env.py": "c37feaa7e10fef2e1a8c121220c9e714509a12e094c3dc3a61005ef40e3008c2"
+  },
+  "protected_existing_files_unchanged": 45,
+  "unit_tests_passed": 8,
+  "pip_check": "No broken requirements found.",
+  "inspect": {
+    "legs": 6,
+    "controlled_joints": 18,
+    "nq": 25,
+    "nv": 24,
+    "control_steps": 1580,
+    "physics_steps": 15800,
+    "max_joint_violation_rad": 0.0,
+    "warnings": 0
+  },
+  "random": {
+    "seed": 123,
+    "total_steps": 1800,
+    "max_joint_violation_rad": 0.0,
+    "max_torque_nm": 7.0
+  },
+  "training": {
+    "fresh_timesteps": 256,
+    "resumed_timesteps": 512,
+    "parameters_changed_after_resume": true,
+    "resume_loss": 0.4433209300041199,
+    "n_updates_after_resume": 8,
+    "effective_parameters": {
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 4,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "ent_coef": 0.0,
+      "vf_coef": 0.5,
+      "max_grad_norm": 0.5,
+      "normalize_advantage": true,
+      "target_kl": null
+    },
+    "net_arch": {
+      "pi": [
+        64,
+        64
+      ],
+      "vf": [
+        64,
+        64
+      ]
+    }
+  },
+  "play": {
+    "trained_timesteps": 512,
+    "episodes": [
+      {
+        "episode": 0,
+        "steps": 600,
+        "reward": -0.042769436444896405,
+        "displacement_x_m": -0.0009263735170356923,
+        "mean_forward_m_s": -7.71977930863077e-05,
+        "terminated": false,
+        "truncated": true,
+        "termination_reasons": []
+      },
+      {
+        "episode": 1,
+        "steps": 600,
+        "reward": -0.04350236135728146,
+        "displacement_x_m": -0.0008586972038543668,
+        "mean_forward_m_s": -7.155810032119724e-05,
+        "terminated": false,
+        "truncated": true,
+        "termination_reasons": []
+      }
+    ]
+  },
+  "guide_old_total_lines": 3010,
+  "guide_new_total_lines": 959,
+  "documentation_checks": {
+    "markdown_files": 20,
+    "local_links": 81,
+    "broken_links": [],
+    "mermaid_blocks_structurally_checked": 4,
+    "python_files_ast_checked": 14,
+    "protected_existing_files_unchanged": 45,
+    "ignore_cases_passed": 12,
+    "cli_options": {
+      "_bootstrap.py": [],
+      "inspect_robot.py": [
+        "--config",
+        "--model",
+        "--render",
+        "--snapshot",
+        "--output"
+      ],
+      "play.py": [
+        "--checkpoint",
+        "--config",
+        "--episodes",
+        "--seed",
+        "--headless",
+        "--output"
+      ],
+      "random_test.py": [
+        "--episodes",
+        "--seed",
+        "--config",
+        "--output"
+      ],
+      "train.py": [],
+      "create_rl_mjcf.py": [
+        "--source",
+        "--output",
+        "--meshes"
+      ],
+      "dual_side_mujoco_driver.py": [],
+      "hexapod_rl_env.py": [
+        "--model",
+        "--steps"
+      ],
+      "rewards.py": [],
+      "robot_interface.py": [],
+      "sim_robot.py": [],
+      "train_ppo.py": [
+        "--steps",
+        "--workers",
+        "--config",
+        "--train-config",
+        "--resume",
+        "--run-name"
+      ],
+      "validation.py": [],
+      "test_env.py": []
+    }
+  }
+}

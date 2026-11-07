@@ -1,0 +1,145 @@
+{
+  "zip_sha256": "f5ab232a6dcfb4b675fb0386cc6d491e34a599558c8ae22a491b97d00f09e518",
+  "files": [
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/base_link.STL",
+      "bytes": 607484,
+      "sha256": "75d50fca515b76c2d9858e90e11730a47cc6328e9766f80c8c12de17b58c8623"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/lf_coxa_link.STL",
+      "bytes": 5564584,
+      "sha256": "2d05ee2cc7afa06315e6e6573f5a1ca52f40c14d8202af098cdc1a439e05a970"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/lf_femur_link.STL",
+      "bytes": 5605084,
+      "sha256": "32e834ad0395c09be89a796c2c99864ff479f54131d7bb73a04cba76d88d2c2a"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/lf_tibia_link.STL",
+      "bytes": 5510884,
+      "sha256": "25c368040e82eae155613fd7f0d36f2829b8bc37a7af9d80ee0a69193dfb3741"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/lm_coxa_link.STL",
+      "bytes": 5537484,
+      "sha256": "3899d49e84da23823278011905ce2cc27e9d045f0dab511c58dc52f42a2a04e2"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/lm_femur_link.STL",
+      "bytes": 5605084,
+      "sha256": "b08e6643d62556d9bf32ee7e1264dd0dc4cdd81c1b98d8147d4a4901a0cd810e"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/lm_tibia_link.STL",
+      "bytes": 5510884,
+      "sha256": "ab8f305f1ce7bdaed38be4938b7d8d0f8f82163b1061b6535053e2fa99f2f7d1"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/lr_coxa_link.STL",
+      "bytes": 5537484,
+      "sha256": "5b120061811aee16c428fb1db29b9dd4b55040f13bb7dd385d10014fe1312b4d"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/lr_femur_link.STL",
+      "bytes": 5605084,
+      "sha256": "1f88e0e6f943c0d6e57923afe114a9ad16d3088610002c8de442149155491e58"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/lr_tibia_link.STL",
+      "bytes": 5510884,
+      "sha256": "85f9ddea194177666d82f3fc4f5c8bf8486404063e89b8cadc593f278c5b96c6"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/rf_coxa_link.STL",
+      "bytes": 5537484,
+      "sha256": "8efbcc00a8387f02b9221e2ece6aa4b4acfe33e2280a1bf1382abec33614a6eb"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/rf_femur_link.STL",
+      "bytes": 5605084,
+      "sha256": "97c97c51d4dcdc8fd208ba27c2ae7a4c4f2ffd34fe5f96dbe7a4c753d3183c0d"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/rf_tibia_link.STL",
+      "bytes": 5510884,
+      "sha256": "1f6e25ad3e9e3eaf4159fc8c62df501f60cca98faaa9783b6448d026c50e49df"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/rm_coxa_link.STL",
+      "bytes": 5537484,
+      "sha256": "f389678d97ce3e001ca92c473667ab9857190c1c5c2bd32f88f0fb21e9cb5a6e"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/rm_femur_link.STL",
+      "bytes": 5605084,
+      "sha256": "fef7c4d26e6e9dc0e4d2752362ad520fb949508d7de073d2337515fdfd3ccea5"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/rm_tibia_link.STL",
+      "bytes": 5510884,
+      "sha256": "aa11a679f96b55908ea181b5f5f13a9751015f8f4ec7db1446348202e16b6ce1"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/rr_coxa_link.STL",
+      "bytes": 5537484,
+      "sha256": "333b0aeb77024c691540efa74b97764d830e60f25352a3a9fe3c3879f6f676ba"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/rr_femur_link.STL",
+      "bytes": 5605084,
+      "sha256": "1e4340d7e488b7e78f9fa577dd371bc49764e161b737685c2223d6b707c83a22"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/meshes/rr_tibia_link.STL",
+      "bytes": 5510884,
+      "sha256": "7ed6af0635da271ef0d8928c2ea00fc55b0dceb0902a6b30b4e43da70ed56c72"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/mujoco/create_rl_mjcf.py",
+      "bytes": 3563,
+      "sha256": "8b5d8125c2cc5717d1da6336c59783698b922a5d891621be59ee1b4e97e00899"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/mujoco/dual_side_mujoco_driver.py",
+      "bytes": 25254,
+      "sha256": "9ca6500850e95e3f3f859c5698caab495e7f4025536b345e06d6b3a81c0bf28b"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/mujoco/hexapod_dynamic.xml",
+      "bytes": 24050,
+      "sha256": "c02e3eb27c4cb7f9d7bc03cc0ce61f09a08c6e58d870f060f5b74029f458ee38"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/mujoco/hexapod_rl.xml",
+      "bytes": 23412,
+      "sha256": "b717873cde62481fbd0c134a2513f8d5de16ed4257233316e2515b75b3bcb608"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/mujoco/hexapod_rl_env.py",
+      "bytes": 10036,
+      "sha256": "4e8da602c878db5b70258875cf37fa9b80ee5d3b6ada19bf8871d621acac87d1"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/mujoco/linux_smoke_test.sh",
+      "bytes": 283,
+      "sha256": "a3397b3d3673c7297bdea3316b867bdf358df01f416b469b0094fc8d77cfaf98"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/mujoco/requirements-linux.txt",
+      "bytes": 108,
+      "sha256": "9c058b9dba8d7b4b84ce13bc1bd61c608988d83381ff6e69f4a8fe4474e31270"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/mujoco/train_ppo.py",
+      "bytes": 1550,
+      "sha256": "2fc7bb2818f5b4c56cc20c8047bece06d7a7142ea0cb31650f55a6b08343e4cf"
+    },
+    {
+      "path": "six_leg_lzx-1.1-RL/README.md",
+      "bytes": 3201,
+      "sha256": "688de7ceb4d7a72cc70a927de276adade37dadea53e4071b4ef144986f2b40fa"
+    }
+  ]
+}
